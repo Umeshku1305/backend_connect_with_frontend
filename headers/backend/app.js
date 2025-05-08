@@ -4,7 +4,7 @@ const app = express();
 app.use(express.json())
 
 app.get("/", (req,res)=>{
-    res.header("e-username ","umesh")
+    res.header("umesh")
     res.json({name:"umesh",age:21})
 })
 
